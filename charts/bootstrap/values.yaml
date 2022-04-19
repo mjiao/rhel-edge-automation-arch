@@ -88,39 +88,42 @@ application-manager:
                           openshift.io/display-name: OpenShift Container Native Virtualization
                         labels:
                           openshift.io/cluster-monitoring: "true"
-                          argocd.argoproj.io/managed-by: openshift-gitops
+                          argocd.argoproj.io/managed-by: rfe-gitops
                       - name: quay
                         annotations:
                           openshift.io/description: Quay
                           openshift.io/display-name: Quay
                         labels:
                           openshift.io/cluster-monitoring: "true"
-                          argocd.argoproj.io/managed-by: openshift-gitops
+                          argocd.argoproj.io/managed-by: rfe-gitops
                       - name: openshift-storage
                         annotations:
                           openshift.io/description: OpenShift Data Foundation
                           openshift.io/display-name: OpenShift Data Foundation
                         labels:
                           openshift.io/cluster-monitoring: "true"
-                          argocd.argoproj.io/managed-by: openshift-gitops
+                          argocd.argoproj.io/managed-by: rfe-gitops
                       - name: openshift-pipelines
                         annotations:
                           openshift.io/description: OpenShift Pipelines
                           openshift.io/display-name: OpenShift Pipelines
                         labels:
                           openshift.io/cluster-monitoring: "true"
+                          argocd.argoproj.io/managed-by: rfe-gitops
                       - name: openshift-user-workload-monitoring
                         annotations:
                           openshift.io/description: OpenShift User Workload Monitoring
                           openshift.io/display-name: OpenShift User Workload Monitoring
                         labels:
                           openshift.io/cluster-monitoring: "true"
+                          argocd.argoproj.io/managed-by: rfe-gitops
                       - name: pulp
                         annotations:
                           openshift.io/description: Pulp
                           openshift.io/display-name: Pulp
                         labels:
                           openshift.io/cluster-monitoring: "true"
+                          argocd.argoproj.io/managed-by: rfe-gitops
                 # Operators App of App Chart
                 operators:
                   name: operators
