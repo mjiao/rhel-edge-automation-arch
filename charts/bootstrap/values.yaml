@@ -15,6 +15,7 @@ namespace:
         openshift.io/display-name: RHEL for Edge
       labels:
         openshift.io/cluster-monitoring: "true"
+        argocd.argoproj.io/managed-by: rfe-gitops
 
 rhsm:
   namespace: rfe
