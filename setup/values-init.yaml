@@ -4,6 +4,8 @@ namespaces:
     annotations:
       openshift.io/description: RFE GitOps
       openshift.io/display-name: RFE GitOps
+    labels:
+      openshift.io/cluster-monitoring: "true"
 
 # OpenShift GitOps
 operator:
